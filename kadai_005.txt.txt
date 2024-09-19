@@ -1,0 +1,248 @@
+PS C:\git_challenge> git init
+PS C:\git_challenge> git add hello_world.txt
+PS C:\git_challenge> git commit -m "Hello, World!"
+[main (root-commit) 7256d00] Hello, World!
+ 1 file changed, 2 insertions(+)
+ create mode 100644 hello_world.txt
+  
+ 
+
+On branch main
+nothing to commit, working tree clean
+PS C:\git_challenge> git commit -m "こんにちは、世界！"
+nothing to commit, working tree clean
+nothing to commit, working tree clean
+PS C:\git_challenge> git commit -m "Hello, World!"
+PS C:\git_challenge> git init
+Reinitialized existing Git repository in C:/git_challenge/.git/
+On branch main
+nothing to commit, working tree clean
+PS C:\git_challenge> git commit -m "Hello, World!" 
+On branch main
+nothing to commit, working tree clean
+PS C:\git_challenge> git init
+Reinitialized existing Git repository in C:/git_challenge/.git/
+PS C:\git_challenge> git init
+Reinitialized existing Git repository in C:/git_challenge/.git/
+PS C:\git_challenge>
+PS C:\git_challenge> git commit -m "Hello, World!"
+On branch main
+PS C:\git_challenge>
+On branch main
+nothing to commit, working tree clean
+On branch main
+nothing to commit, working tree clean
+
+
+
+----                 -------------         ------ ----
+d-----        2024/09/19     23:40                git_challenge
+
+Reinitialized existing Git repository in C:/git_challenge/.git/
+PS C:\git_challenge> git commit -m "Hello, World!"
+On branch main
+nothing to commit, working tree clean
+PS C:\git_challenge> git status
+nothing to commit, working tree clean
+PS C:\git_challenge> git diff --staged
+7256d00 (HEAD -> main) Hello, World!
+PS C:\git_challenge> git commit -m "こんにちは、世界！"
+On branch main
+nothing to commit, working tree clean
+PS C:\git_challenge> git commit -m "こんにちは、世界！"
+On branch main
+nothing to commit, working tree clean
+7256d00 (HEAD -> main) Hello, World!
+PS C:\git_challenge> git log
+Author: oneok1h <buffalo_13h@icloud.com>
+Date:   Thu Sep 19 23:20:57 2024 +0900
+
+    Hello, World!
+PS C:\git_challenge> git commit -m "こんにちは、世界！"
+On branch main
+nothing to commit, working tree clean
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)      
+        modified:   hello_world.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+On branch main
+nothing to commit, working tree clean
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)      
+        modified:   hello_world.txt
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\git_challenge> git commit -m "こんにちは、世界！"
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)      
+        modified:   hello_world.txt
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\git_challenge> git commit -m "こんにちは、世界！"
+On branch main
+nothing to commit, working tree clean
+PS C:\git_challenge> git log
+commit 7256d00dbc2cc43d1991022d52c33b53d3e36e26 (HEAD -> main)
+Author: oneok1h <buffalo_13h@icloud.com>
+
+    Hello, World!
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)      
+        modified:   hello_world.txt
+no changes added to commit (use "git add" and/or "git commit -a")
+nothing to commit, working tree clean
+PS C:\git_challenge> git add hello_world.txt
+On branch main
+nothing to commit, working tree clean
+PS C:\git_challenge> git commit -m "こんにちは、世界！"
+On branch main
+nothing to commit, working tree clean
+PS C:\git_challenge> git log
+commit 7256d00dbc2cc43d1991022d52c33b53d3e36e26 (HEAD -> main)
+Author: oneok1h <buffalo_13h@icloud.com>
+Date:   Thu Sep 19 23:20:57 2024 +0900
+    Hello, World!
+PS C:\git_challenge> git add hello_world.r
+fatal: pathspec 'hello_world.r' did not match any files
+PS C:\git_challenge> git add hello_world.txt
+PS C:\git_challenge> git status
+On branch main
+nothing to commit, working tree clean
+nothing to commit, working tree clean
+PS C:\git_challenge> git commit -m "こんにちは、世界！"
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+        modified:   hello_world.txt
+
+PS C:\git_challenge> git commit -m "こんにちは、世界！"
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)      
+        modified:   hello_world.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\git_challenge> git add hello_world.txt
+PS C:\git_challenge> git status
+On branch main
+
+PS C:\git_challenge> git commit -m "こんにちは、世界！"
+[main 09225f6] こんにちは、世界！
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS C:\git_challenge> git log
+commit 09225f6c228ddc174237ff18637fdfa2e4a7397f (HEAD -> main)
+Author: oneok1h <buffalo_13h@icloud.com>
+Date:   Fri Sep 20 00:17:31 2024 +0900
+
+    こんにちは、世界！
+
+Author: oneok1h <buffalo_13h@icloud.com>
+Date:   Thu Sep 19 23:20:57 2024 +0900
+    Hello, World!
+PS C:\git_challenge> git diff
+PS C:\git_challenge> git diff --staged
+PS C:\git_challenge> git log
+commit 09225f6c228ddc174237ff18637fdfa2e4a7397f (HEAD -> main)
+Author: oneok1h <buffalo_13h@icloud.com>
+Date:   Fri Sep 20 00:17:31 2024 +0900
+
+    こんにちは、世界！
+
+commit 7256d00dbc2cc43d1991022d52c33b53d3e36e26
+    Hello, World!
+PS C:\git_challenge> git status
+On branch main
+nothing to commit, working tree clean
+PS C:\git_challenge> git log
+commit 09225f6c228ddc174237ff18637fdfa2e4a7397f (HEAD -> main)
+Author: oneok1h <buffalo_13h@icloud.com>
+Date:   Fri Sep 20 00:17:31 2024 +0900
+
+    こんにちは、世界！
+
+Author: oneok1h <buffalo_13h@icloud.com>
+Date:   Thu Sep 19 23:20:57 2024 +0900
+
+    Hello, World!
+PS C:\git_challenge> echo "日本語を追記" >> hello_world.txt
+PS C:\git_challenge> echo "hello_world.txtを追加" >> hello_world.txt
+PS C:\git_challenge> git log
+commit 09225f6c228ddc174237ff18637fdfa2e4a7397f (HEAD -> main)
+Author: oneok1h <buffalo_13h@icloud.com>
+Date:   Fri Sep 20 00:17:31 2024 +0900
+
+Author: oneok1h <buffalo_13h@icloud.com>
+Date:   Thu Sep 19 23:20:57 2024 +0900
+    Hello, World!
+PS C:\git_challenge> git log
+commit 09225f6c228ddc174237ff18637fdfa2e4a7397f (HEAD -> main)
+
+    こんにちは、世界！
+commit 7256d00dbc2cc43d1991022d52c33b53d3e36e26
+Author: oneok1h <buffalo_13h@icloud.com>
+Date:   Thu Sep 19 23:20:57 2024 +0900
+
+    Hello, World!
+PS C:\git_challenge> echo "hello_world.txtを追加" >> hello_world.txt
+PS C:\git_challenge> git add hello_world.txt
+PS C:\git_challenge> git commit -m "日本語を追記"
+[main 579ffd1] 日本語を追記
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\git_challenge> git log --oneline
+579ffd1 (HEAD -> main) 日本語を追記
+09225f6 こんにちは、世界！
+7256d00 Hello, World!
+PS C:\git_challenge> git add hello_world.txt
+PS C:\git_challenge> git commit -m "hello_world.txtを追加"
+On branch main
+commit 579ffd1164f81d8c4122a4921cc83ac162993385 (HEAD -> main)
+Author: oneok1h <buffalo_13h@icloud.com>
+Date:   Fri Sep 20 00:51:46 2024 +0900
+
+    日本語を追記
+
+commit 09225f6c228ddc174237ff18637fdfa2e4a7397f
+Date:   Fri Sep 20 00:17:31 2024 +0900
+
+    こんにちは、世界！
+Author: oneok1h <buffalo_13h@icloud.com>
+Date:   Thu Sep 19 23:20:57 2024 +0900
+    Hello, World!
+PS C:\git_challenge> git add hello_world.txt
+PS C:\git_challenge> git commit -m "hello_world.txtを追加"
+On branch main
+  (use "git restore <file>..." to discard changes in working directory)      
+        modified:   hello_world.txt
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\git_challenge> git log --oneline
+579ffd1 (HEAD -> main) 日本語を追記
+09225f6 こんにちは、世界！
+7256d00 Hello, World!
+PS C:\git_challenge> git add hello_world.txt
+PS C:\git_challenge> git commit -m "hello_world.txtを追加"
+[main 5e311fd] hello_world.txtを追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\git_challenge> git log --oneline 
+5e311fd (HEAD -> main) hello_world.txtを追加
+579ffd1 日本語を追記
+09225f6 こんにちは、世界！
+7256d00 Hello, World!
+PS C:\git_challenge> git add hello_world.txt
+PS C:\git_challenge> git commit -m "日本語を追記"
+[main 6d27831] 日本語を追記
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\git_challenge> git log --oneline
+6d27831 (HEAD -> main) 日本語を追記
+5e311fd hello_world.txtを追加
